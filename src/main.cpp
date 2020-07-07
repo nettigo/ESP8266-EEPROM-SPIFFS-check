@@ -15,7 +15,7 @@ void setup() {
     // put your setup code here, to run once:
     EEPROM.begin(4096);
     Serial.begin(115200);
-    for (byte i=0; i<10;i++) {
+    for (byte i=0; i<20;i++) {
         delay(200);
         Serial.print(".");
     }
